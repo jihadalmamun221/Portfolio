@@ -7,13 +7,6 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-header{
-    padding-top: 50px;
-    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
-    background-repeat: no-repeat;
-    background-position: top left, right bottom;
-    
-}
 .logo h2{
     font-size: 45px;
     font-weight: 700px;
@@ -31,6 +24,13 @@ header{
     border: none;
     cursor: pointer;
 }
+header {
+    padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;   
+}
+
 nav{
     display: flex;
     max-width: 1140px;
@@ -56,14 +56,12 @@ nav .menu a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 201px;
 
 }
 #Bannar .Bannar-Content{
-    width: 71%;
-    max-width: 606px;
-    margin: 0 auto;
+    max-width: 585px;
 }
+    
 #Bannar .Bannar-Content h2{
     color: #474747;
     font-size: 45px;
@@ -87,4 +85,51 @@ nav .menu a{
     max-width: 585px;;
     vertical-align: middle;
 }
+#about{
+    padding-top: 101px;
+    
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+#about .section-heading h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 30px;
+}
+#about .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+#about .about-info{
+    max-width: 782px;
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+    margin: 0 auto;
+}
+#about .about-card p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+#about .about-card h4{
+   font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    line-height: 30px;
+}
 
+ 
